@@ -1,12 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-void print(vector <int>ans){
-      for(int i=0;i<ans.size();i++){
-    cout<<ans[i]<<" ";
-   }
-   cout<<endl;
-}
+
 void wavePrint(vector<vector<int> > arr, int nRows, int mCols)
 {
     vector<int> ans;
